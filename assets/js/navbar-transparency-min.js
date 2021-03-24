@@ -1,1 +1,1 @@
-$(function(){"use strict";$(window).on("scroll",function(){$("#navbar-menu").toggleClass("navbar--scrolled",$(this).scrollTop()>350)})});
+$(function(){"use strict";$(window).on("scroll",function(){$("#navbar-menu").toggleClass("navbar--scrolled",$(this).scrollTop()>10)})});
