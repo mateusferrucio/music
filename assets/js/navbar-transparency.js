@@ -1,0 +1,1 @@
+$(function(){"use strict";$(window).width()>=768&&$(window).on("scroll",function(){$("#navbar-menu").offset().top>100?($("#navbar-menu").addClass("navbar--scrolled"),$(".navbar-brand").css("opacity","1")):($("#navbar-menu").removeClass("navbar--scrolled"),$(".navbar-brand").css("opacity","0"))})});
