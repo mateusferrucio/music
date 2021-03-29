@@ -1,1 +1,1 @@
-$(function(){"use strict";$(window).width()>=768&&$(window).on("scroll",function(){$(window).scrollTop()>400?$(".totop").show():$(".totop").hide()})});
+$(function(){"use strict";$(window).width()>=TABLET_WIDTH&&$(window).on("scroll",function(){$(window).scrollTop()>TOTOP_LINK_TOP_DISTANCE?$(".totop").show():$(".totop").hide()})});

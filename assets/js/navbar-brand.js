@@ -1,0 +1,1 @@
+$(function(){"use strict";$(window).width()>=TABLET_WIDTH&&$(window).on("scroll",function(){$("#navbar-menu").offset().top>NAVBAR_TOP_DISTANCE?$(".navbar-brand").css("opacity","1"):$(".navbar-brand").css("opacity","0")})});
