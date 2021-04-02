@@ -1,1 +1,0 @@
-$(function(){"use strict";$(window).width()>=768&&$(window).on("scroll",function(){$(window).scrollTop()>400?$(".totop").show():$(".totop").hide()})});

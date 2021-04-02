@@ -1,1 +1,0 @@
-$(function(){"use strict";$(window).width()>=TABLET_WIDTH&&$(window).on("scroll",function(){$("#navbar-menu").offset().top>NAVBAR_TOP_DISTANCE?($("#navbar-menu").addClass("navbar--scrolled"),$("#navbar-menu").removeClass("navbar--transparent")):($("#navbar-menu").addClass("navbar--transparent"),$("#navbar-menu").removeClass("navbar--scrolled"))})});
