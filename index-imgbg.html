@@ -24,7 +24,7 @@
     />
 
     <!-- SASS Generated CSS -->
-    <link rel="stylesheet" href="assets/css/headerazul.css" />
+    <link rel="stylesheet" href="assets/css/azulao.css" />
 
     <title>Mateus Ferrucio - Guitar and Piano Instructor</title>
   </head>
@@ -36,7 +36,7 @@
       class="navbar navbar-expand-md fixed-top navbar-dark navbar--transparent"
     >
       <div class="container">
-        <a class="navbar-brand" href="#">Mateus Ferrucio</a>
+        <a class="navbar-brand nav-link" href="#">Mateus Ferrucio</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -60,7 +60,7 @@
           <ul class="navbar-nav ms-md-auto">
             <li class="nav-item">
               <a
-                class="nav-link nav-link__logo"
+                class="nav-link"
                 href="https://github.com/mateusferrucio"
                 target="_blank"
                 rel="noopener"
@@ -70,7 +70,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link nav-link__logo"
+                class="nav-link"
                 href="https://www.linkedin.com/in/mateus-gomes-017a361a9/"
                 target="_blank"
                 rel="noopener"
@@ -80,7 +80,7 @@
             </li>
             <li class="nav-item">
               <a
-                class="nav-link nav-link__logo"
+                class="nav-link"
                 href="https://www.instagram.com/matferrucio/"
                 target="_blank"
                 rel="noopener"
@@ -117,8 +117,8 @@
     <main>
       <!-- section about -->
 
-      <section id="about" class="page-section page-section--about">
-        <h2>About</h2>
+      <section id="about" class="page-section bg-base-100">
+        <h2>Some Words About Me</h2>
         <hr />
         <div class="row">
           <div class="col-md-7">
@@ -156,31 +156,42 @@
         </div>
       </section>
 
+      <!-- section media -->
+
+      <section id="media" class="page-section bg-base-200">
+        <h2>Media</h2>
+        <hr />
+      </section>
+
+      <!-- section pricing -->
+
+      <section id="pricing" class="page-section bg-base-300">
+        <h2>Pricing</h2>
+        <hr />
+      </section>
+
       <!-- section contact -->
 
-      <section id="contact" class="page-section page-section--contact">
+      <section id="contact" class="page-section bg-base-400">
         <h2>Let's Get In Touch!</h2>
         <hr />
-        <div class="container text-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <p class="lead mb-5">
+              Ready to start your next guitar or piano lesson? Give me a call or
+              send me an email and I will get back to you as soon as possible!
+            </p>
+          </div>
           <div class="row justify-content-center">
-            <div class="col-md-8">
-              <p class="lead mb-5">
-                Ready to start your next guitar or piano lesson? Give me a call
-                or send me an email and I will get back to you as soon as
-                possible!
-              </p>
+            <div class="col-md-4 ml-auto mb-5 text-center">
+              <i class="page-section__logo bi bi-telephone-fill"></i>
+              <a class="d-block" href="tel:919-808-6108">+1 (919) 808-6108</a>
             </div>
-            <div class="row justify-content-center">
-              <div class="col-md-4 ml-auto mb-5">
-                <i class="page-section__logo bi bi-telephone-fill"></i>
-                <a class="d-block" href="tel:919-808-6108">+1 (919) 808-6108</a>
-              </div>
-              <div class="col-md-4 mr-auto text-center">
-                <i class="page-section__logo bi bi-mailbox"></i>
-                <a class="d-block" href="mailto:mateus.ferrucio@gmail.com"
-                  >mateus.ferrucio@gmail.com</a
-                >
-              </div>
+            <div class="col-md-4 mr-auto text-center">
+              <i class="page-section__logo bi bi-mailbox"></i>
+              <a class="d-block" href="mailto:mateus.ferrucio@gmail.com"
+                >mateus.ferrucio@gmail.com</a
+              >
             </div>
           </div>
         </div>
@@ -189,7 +200,7 @@
 
     <!-- footer -->
 
-    <footer class="py-5">
+    <footer class="py-5 bg-nav-footer">
       <p>
         &copy; 2021&nbsp;<a href="http://mateusferrucio.com/"
           >Mateus Ferrucio</a
